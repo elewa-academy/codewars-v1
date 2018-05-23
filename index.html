@@ -1,0 +1,93 @@
+<!-- Clear out this page and include your own HTML & JS solutions -->
+
+<!DOCTYPE html> 
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>precourse final project</title>
+   <link rel="stylesheet" type="text/css" href="./demo-solutions/style.css" />
+
+   <!-- require your solutions in the head -->
+   <!-- they are pure JS, no DOM -->
+
+   <script src="./demo-solutions/simple-elevator/solution.js"></script>
+
+   <script src="./demo-solutions/string-reverser/solution.js"></script>
+
+   <script src="./demo-solutions/string-repeat/solution.js"></script>
+
+   <script src="./demo-solutions/binary-addition/solution.js"></script>
+
+</head>
+
+<body>
+
+   <h1><a href="">CodeWars Step 1</a><h1>
+
+   <h2>My CodeWar solutions:</h2>
+
+   <table>
+     <tr>
+       <td>
+         <div id="simple-elevator">
+         	<h3>Simple Elevator</h3>
+         	<p>Elevate! enter the current floor (number) and new floor (number)</p>
+         	<p>(psst.  There are only 4 floors -> 0, 1, 2, 3)</p>
+         	<input id="old-floor" /> <input id="new-floor" />
+         	<button onclick="simple_elevator_handler()" class="customButtons">Elevate!</button>
+         	<p id="s_e_display">delta floor: </p>
+         	<a href="">Read the write-up</a>
+         </div>
+       </td>
+       <td>
+         <div id="string-reverser">
+          <h3>String Reverser</h3>
+          <p>Reverse!  Enter a string, my code will reverse it.</p>
+          <input id="string-to-reverse" />
+          <button onclick="string_reverser_handler()" class="customButtons">Reverse!</button>
+          <p id="string_reverser_display">Your string reversed: </p>
+          <a href="">Read the write-up</a>
+         </div>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <div id="string-repeat">
+          <h3>String Repeat</h3>
+          <p>Repeat! Enter a Number and a String.</p>
+          <p>We'll repeat your string that many times</p>
+          <input id="number" /> <input id="string" />
+          <button onclick="string_repeat_handler()" class="customButtons">Repeat!</button>
+          <p id="string-repeat-display">String repeated: </p>
+          <a href="">Read the write-up</a>
+         </div>
+       </td>
+       <td>
+         <div id="binary-addition">
+         	<h3>Binary Addition</h3>
+         	<p>Binarily Add!  Enter two numbers and get back their sum in binary.</p>
+         	<input id="first-number" /> + <input id="second-number" />
+         	<button onclick="binary_addition_handler()" class="customButtons">Binarily Add!</button>
+         	<p id="binary-addition-display">Sum base 2: </p>
+         	<a href="">Read the write-up</a>
+         </div>
+       </td>
+     </tr>
+   </table>
+  
+
+   <!-- require your components and handlers below your HTML -->
+   <!-- the DOM loads top to bottom -->
+   <!-- you can't manipulate a DOM that hasn't been built -->
+
+   <script src="./demo-solutions/simple-elevator/handler.js"></script>
+
+   <script src="./demo-solutions/string-reverser/handler.js"></script>
+
+   <script src="./demo-solutions/string-repeat/handler.js"></script>
+
+   <script src="./demo-solutions/binary-addition/handler.js"></script>
+
+</body>
+
+</html>
