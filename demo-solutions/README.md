@@ -1,4 +1,6 @@
-Example solutions to study. 
+## Demo Solutions
+
+Take a read through these completed examples to see what a completed CodeWar directory will look like.
 
 ___
 ___
